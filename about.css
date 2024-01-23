@@ -1,0 +1,66 @@
+.about {
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+}
+
+
+.note {
+  width: 50%;
+  padding: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 50%;
+}
+
+.about-heading {
+  text-align: left;
+  font-size: 44px;
+}
+
+.about-detail {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+form {
+  display: flex;
+  flex-flow: column;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  background: transparent;
+  border: solid 1px rgb(190,190,190);
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(40, 40, 40);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width:540px){
+  .contact {
+    width: 90%;
+  }
+}
